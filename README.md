@@ -1,1 +1,3 @@
-# tugas-algo-praktek
+# Tugas Algoritma Praktikum
+
+Ini adalah Repository untuk Tugas Algo praktek!
