@@ -1,3 +1,4 @@
-# Tugas Algoritma Praktikum
+# Baris Kode
 
-Ini adalah Repository untuk Tugas Algo praktek!
+Baris dan Kode, sebuah repository yang berisikan shitcode, dari seorang scriptkiddie.
+semoga bermanfaat untuk copypaste tugas, referensi, dll.
