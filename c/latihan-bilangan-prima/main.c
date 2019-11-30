@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-int main(void) {
+int main() {
 	/*
-	Cek bilangan Prima
-	- Bilangan asli yang lebih dari 1
-	- dan hanya jika habis di bagi oleh bilangan itu sendiri
-	
+		Cek bilangan Prima
+		- Bilangan asli yang lebih dari 1
+		- dan hanya jika habis di bagi oleh bilangan itu sendiri
+
 	variable n, sebagai wadah inputan dari user dan count
 	sebagai counter sebanyak berapa kali n dapat di bagi oleh bilangan i
 	*/ 
-	
+
 	int n;
 	int count = 0;
 
