@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main(void) {
 	int range_down, range_up;
-	int count = 0;
+	bool is_Prime;
+	is_Prime = true;
 
 	printf("Masukkan range awal: ");
 	scanf("%i", &range_down);
@@ -19,14 +21,14 @@ int main(void) {
 		// Iterasi ini untuk mengecek apakah nilai i bilangan prima atau tidak
 		for (int j = 2; j < i; j++) {
 			if (i % j == 0) {
-				count++;
+				is_Prime = false;
 				break;
 			}
 		}
-		if (count == 0) {
+		if (is_Prime) {
 			printf("%i\n", i);
 		}else {
-			count = 0;
+			is_Prime = true;
 		}
 	}
 }
