@@ -1,0 +1,13 @@
+# pangkat(x, y), fungsi pemangkatan nilai x oleh y
+def pangkat(x, y):
+    if y == 0:
+        return 1
+    else:
+        return x * pangkat(x, y - 1)
+
+
+# x adalah bilangan yang akan dipangkatkan oleh y
+x = int(input("Masukan Nilai X : "))
+y = int(input("Masukan Nilai Y : "))
+
+print("%d dipangkatkan %d = %d" % (x, y, pangkat(x, y)))
